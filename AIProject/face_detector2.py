@@ -6,6 +6,7 @@ trained_face_data = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 #choose an image to detext face
 #webcam = cv2.VideoCapture('demo.mp4')
+#webcam = cv2.VideoCapture(0) (it will take webcom live input)
 webcam = cv2.VideoCapture(0)
 
 #iterate forever over frames
